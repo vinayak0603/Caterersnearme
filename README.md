@@ -28,11 +28,20 @@ A full-stack web application that allows users to discover, search, and filter c
 
 ## Live Demo
 
-| Service     | URL                          |
-|-------------|------------------------------|
-| Backend API | `https://caterersnearme-beryl.vercel.app/api`  |
-| React Client| `http://localhost:5173`      |
-| Next.js App | `http://localhost:3000`      |
+| Service     | URL                                               |
+|-------------|---------------------------------------------------|
+| Frontend App| `https://caterersnearme-frontend.vercel.app`      |
+| Backend API | `https://caterersnearme-beryl.vercel.app/api`     |
+
+---
+
+## Project Visuals
+
+### Wireframe
+![CaterEase Wireframe](./frontend/public/wireframe.png)
+
+### Demo Video
+[Click here to watch the Demo Video](./frontend/public/demo-video.mp4)
 
 ---
 

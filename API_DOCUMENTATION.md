@@ -88,14 +88,14 @@ GET /api/caterers
 
 ```http
 GET /api/caterers HTTP/1.1
-Host: localhost:5000
+Host: caterersnearme-beryl.vercel.app
 ```
 
 #### Request (with filters)
 
 ```http
 GET /api/caterers?name=gourmet&maxPrice=800 HTTP/1.1
-Host: localhost:5000
+Host: caterersnearme-beryl.vercel.app
 ```
 
 #### Success Response
@@ -170,7 +170,7 @@ POST /api/caterers
 
 ```http
 POST /api/caterers HTTP/1.1
-Host: localhost:5000
+Host: caterersnearme-beryl.vercel.app
 Content-Type: application/json
 
 {
@@ -255,7 +255,7 @@ GET /api/caterers/:id
 
 ```http
 GET /api/caterers/65f1a2b3c4d5e6f7a8b9c0d1 HTTP/1.1
-Host: localhost:5000
+Host: caterersnearme-beryl.vercel.app
 ```
 
 #### Success Response
@@ -372,16 +372,16 @@ You can test the API using tools like:
 
 ```bash
 # Get all caterers
-curl http://localhost:5000/api/caterers
+curl https://caterersnearme-beryl.vercel.app/api/caterers
 
 # Get caterers with filter
-curl "http://localhost:5000/api/caterers?name=spice&maxPrice=500"
+curl "https://caterersnearme-beryl.vercel.app/api/caterers?name=spice&maxPrice=500"
 
 # Get caterer by ID
-curl http://localhost:5000/api/caterers/65f1a2b3c4d5e6f7a8b9c0d1
+curl https://caterersnearme-beryl.vercel.app/api/caterers/65f1a2b3c4d5e6f7a8b9c0d1
 
 # Create a new caterer
-curl -X POST http://localhost:5000/api/caterers \
+curl -X POST https://caterersnearme-beryl.vercel.app/api/caterers \
   -H "Content-Type: application/json" \
   -d '{"name":"Test Caterer","location":"Chennai","pricePerPlate":400,"cuisines":["South Indian"],"rating":4.1}'
 ```
