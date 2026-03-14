@@ -6,7 +6,7 @@ const app = express();
 
 // Updated CORS middleware to explicitly allow frontend origins
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:5173", "https://caterersnearme-vinayak.vercel.app"],
+  origin: ["http://localhost:3000", "http://localhost:5173", "https://caterersnearme-frontend.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
 }));
