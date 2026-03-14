@@ -30,7 +30,7 @@ A full-stack web application that allows users to discover, search, and filter c
 
 | Service     | URL                          |
 |-------------|------------------------------|
-| Backend API | `http://localhost:5000/api`  |
+| Backend API | `https://caterersnearme-beryl.vercel.app/api`  |
 | React Client| `http://localhost:5173`      |
 | Next.js App | `http://localhost:3000`      |
 

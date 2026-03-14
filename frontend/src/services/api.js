@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // Create an Axios instance pointing at the backend API.
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Adjust if backend URL changes
+  baseURL: 'https://caterersnearme-beryl.vercel.app/api', 
+  // baseURL: 'http://localhost:5000/api', // Adjust if backend URL changes
 });
 
 export const getCaterers = async (params) => {

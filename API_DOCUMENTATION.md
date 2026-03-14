@@ -1,6 +1,6 @@
 # CaterEase API Documentation
 
-**Base URL (Local):** `http://localhost:5000/api`  
+**Base URL (Local):** `https://caterersnearme-beryl.vercel.app/api`  
 **Base URL (Production):** *(Set your deployed URL here)*  
 **Version:** 1.0.0  
 **Protocol:** HTTP/HTTPS  
